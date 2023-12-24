@@ -12,7 +12,7 @@ type RRSet struct {
 	RRType    string     `json:"rrtype,omitempty"`
 	TTL       int        `json:"ttl,omitempty"`
 	RData     []string   `json:"rdata,omitempty"`
-	Profile   RawProfile `json:"profile,omitempty"`
+	Profile   RawProfile `json:"-"`
 }
 
 type RRSetKey struct {
