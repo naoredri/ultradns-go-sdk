@@ -21,6 +21,8 @@ type RRSetKey struct {
 	Zone       string
 	RecordType string
 	PType      string
+	Limit      int
+	Offset     int
 }
 
 type RawProfile interface {
@@ -43,7 +45,11 @@ func (r RRSetKey) RecordURI() string {
 		r.RecordType = "ANY"
 	}
 
-	return fmt.Sprintf("zones/%s/rrsets/%s/%s", r.Zone, r.RecordType, r.Owner)
+	if r.Limit == 0 {
+		r.Limit = 100
+	}
+
+	return fmt.Sprintf("zones/%s/rrsets/%s/%s?offset=%v&limit=%v", r.Zone, r.RecordType, r.Owner, r.Offset, r.Limit)
 }
 
 func (r RRSetKey) ProbeURI() string {
