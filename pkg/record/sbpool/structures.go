@@ -1,6 +1,6 @@
 package sbpool
 
-import "github.com/ultradns/ultradns-go-sdk/pkg/record/pool"
+import "github.com/naoredri/ultradns-go-sdk/pkg/record/pool"
 
 const Schema = "http://schemas.ultradns.com/SBPool.jsonschema"
 

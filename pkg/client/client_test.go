@@ -3,8 +3,8 @@ package client_test
 import (
 	"testing"
 
-	"github.com/ultradns/ultradns-go-sdk/internal/testing/integration"
-	"github.com/ultradns/ultradns-go-sdk/pkg/client"
+	"github.com/naoredri/ultradns-go-sdk/internal/testing/integration"
+	"github.com/naoredri/ultradns-go-sdk/pkg/client"
 )
 
 func TestNewClientWithCredentials(t *testing.T) {

@@ -3,7 +3,7 @@ package helper_test
 import (
 	"testing"
 
-	"github.com/ultradns/ultradns-go-sdk/pkg/helper"
+	"github.com/naoredri/ultradns-go-sdk/pkg/helper"
 )
 
 const (

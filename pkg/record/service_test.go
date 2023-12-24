@@ -3,16 +3,16 @@ package record_test
 import (
 	"testing"
 
-	"github.com/ultradns/ultradns-go-sdk/internal/testing/integration"
-	"github.com/ultradns/ultradns-go-sdk/pkg/record"
-	"github.com/ultradns/ultradns-go-sdk/pkg/record/dirpool"
-	"github.com/ultradns/ultradns-go-sdk/pkg/record/pool"
-	"github.com/ultradns/ultradns-go-sdk/pkg/record/rdpool"
-	"github.com/ultradns/ultradns-go-sdk/pkg/record/sbpool"
-	"github.com/ultradns/ultradns-go-sdk/pkg/record/sfpool"
-	"github.com/ultradns/ultradns-go-sdk/pkg/record/slbpool"
-	"github.com/ultradns/ultradns-go-sdk/pkg/record/tcpool"
-	"github.com/ultradns/ultradns-go-sdk/pkg/rrset"
+	"github.com/naoredri/ultradns-go-sdk/internal/testing/integration"
+	"github.com/naoredri/ultradns-go-sdk/pkg/record"
+	"github.com/naoredri/ultradns-go-sdk/pkg/record/dirpool"
+	"github.com/naoredri/ultradns-go-sdk/pkg/record/pool"
+	"github.com/naoredri/ultradns-go-sdk/pkg/record/rdpool"
+	"github.com/naoredri/ultradns-go-sdk/pkg/record/sbpool"
+	"github.com/naoredri/ultradns-go-sdk/pkg/record/sfpool"
+	"github.com/naoredri/ultradns-go-sdk/pkg/record/slbpool"
+	"github.com/naoredri/ultradns-go-sdk/pkg/record/tcpool"
+	"github.com/naoredri/ultradns-go-sdk/pkg/rrset"
 )
 
 const serviceErrorString = "Record service is not properly configured"

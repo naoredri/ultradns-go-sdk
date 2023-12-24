@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ultradns/ultradns-go-sdk/internal/testing/integration"
-	"github.com/ultradns/ultradns-go-sdk/pkg/probe"
-	"github.com/ultradns/ultradns-go-sdk/pkg/probe/helper"
-	"github.com/ultradns/ultradns-go-sdk/pkg/probe/http"
-	"github.com/ultradns/ultradns-go-sdk/pkg/rrset"
+	"github.com/naoredri/ultradns-go-sdk/internal/testing/integration"
+	"github.com/naoredri/ultradns-go-sdk/pkg/probe"
+	"github.com/naoredri/ultradns-go-sdk/pkg/probe/helper"
+	"github.com/naoredri/ultradns-go-sdk/pkg/probe/http"
+	"github.com/naoredri/ultradns-go-sdk/pkg/rrset"
 )
 
 func (t *IntegrationTest) TestHTTPProbeResources(zoneName, ownerName string) {

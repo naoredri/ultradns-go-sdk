@@ -5,11 +5,11 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/ultradns/ultradns-go-sdk/pkg/client"
-	"github.com/ultradns/ultradns-go-sdk/pkg/dirgroup/geo"
-	"github.com/ultradns/ultradns-go-sdk/pkg/dirgroup/ip"
-	"github.com/ultradns/ultradns-go-sdk/pkg/rrset"
-	"github.com/ultradns/ultradns-go-sdk/pkg/zone"
+	"github.com/naoredri/ultradns-go-sdk/pkg/client"
+	"github.com/naoredri/ultradns-go-sdk/pkg/dirgroup/geo"
+	"github.com/naoredri/ultradns-go-sdk/pkg/dirgroup/ip"
+	"github.com/naoredri/ultradns-go-sdk/pkg/rrset"
+	"github.com/naoredri/ultradns-go-sdk/pkg/zone"
 )
 
 const (

@@ -1,6 +1,6 @@
 package smtpsend
 
-import "github.com/ultradns/ultradns-go-sdk/pkg/probe/helper"
+import "github.com/naoredri/ultradns-go-sdk/pkg/probe/helper"
 
 type Details struct {
 	Message string             `json:"message,omitempty"`

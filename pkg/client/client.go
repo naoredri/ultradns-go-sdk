@@ -4,8 +4,8 @@ import (
 	"context"
 	"strings"
 
-	"github.com/ultradns/ultradns-go-sdk/internal/token"
-	"github.com/ultradns/ultradns-go-sdk/pkg/errors"
+	"github.com/naoredri/ultradns-go-sdk/internal/token"
+	"github.com/naoredri/ultradns-go-sdk/pkg/errors"
 	"golang.org/x/oauth2"
 )
 

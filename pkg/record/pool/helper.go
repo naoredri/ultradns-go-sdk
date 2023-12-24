@@ -1,7 +1,7 @@
 package pool
 
 import (
-	"github.com/ultradns/ultradns-go-sdk/pkg/errors"
+	"github.com/naoredri/ultradns-go-sdk/pkg/errors"
 )
 
 var (

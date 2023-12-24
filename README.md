@@ -13,13 +13,13 @@ Jump To:
 
 Use `go get` to retrieve the latest version of SDK to add it to your `GOPATH` workspace.
 
-	go get github.com/ultradns/ultradns-go-sdk@latest
+	go get github.com/naoredri/ultradns-go-sdk@latest
 
 ## Quick Examples
 
 ### Complete SDK Example
 
-This example shows a complete working Go file which will create a primary zone in UltraDNS. 
+This example shows a complete working Go file which will create a primary zone in UltraDNS.
 This example highlights how to get services using client and make requests.
 
 ```go
@@ -28,8 +28,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/ultradns/ultradns-go-sdk/pkg/client"
-	"github.com/ultradns/ultradns-go-sdk/pkg/zone"
+	"github.com/naoredri/ultradns-go-sdk/pkg/client"
+	"github.com/naoredri/ultradns-go-sdk/pkg/zone"
 )
 
 func main() {

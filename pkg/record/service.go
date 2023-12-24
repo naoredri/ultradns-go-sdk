@@ -3,9 +3,9 @@ package record
 import (
 	"net/http"
 
-	"github.com/ultradns/ultradns-go-sdk/pkg/client"
-	"github.com/ultradns/ultradns-go-sdk/pkg/errors"
-	"github.com/ultradns/ultradns-go-sdk/pkg/rrset"
+	"github.com/naoredri/ultradns-go-sdk/pkg/client"
+	"github.com/naoredri/ultradns-go-sdk/pkg/errors"
+	"github.com/naoredri/ultradns-go-sdk/pkg/rrset"
 )
 
 const serviceName = "Record"

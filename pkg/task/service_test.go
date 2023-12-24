@@ -4,9 +4,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ultradns/ultradns-go-sdk/internal/testing/integration"
-	"github.com/ultradns/ultradns-go-sdk/pkg/task"
-	"github.com/ultradns/ultradns-go-sdk/pkg/zone"
+	"github.com/naoredri/ultradns-go-sdk/internal/testing/integration"
+	"github.com/naoredri/ultradns-go-sdk/pkg/task"
+	"github.com/naoredri/ultradns-go-sdk/pkg/zone"
 )
 
 const serviceErrorString = "Task service is not properly configured"

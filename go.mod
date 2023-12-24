@@ -3,7 +3,6 @@ module github.com/naoredri/ultradns-go-sdk
 go 1.19
 
 require (
-	github.com/ultradns/ultradns-go-sdk v1.6.1-20231103022937-8589b6a
 	golang.org/x/oauth2 v0.13.0
 )
 

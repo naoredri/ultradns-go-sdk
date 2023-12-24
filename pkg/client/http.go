@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/ultradns/ultradns-go-sdk/internal/version"
-	"github.com/ultradns/ultradns-go-sdk/pkg/errors"
+	"github.com/naoredri/ultradns-go-sdk/internal/version"
+	"github.com/naoredri/ultradns-go-sdk/pkg/errors"
 )
 
 const contentType = "application/json"

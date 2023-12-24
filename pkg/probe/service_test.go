@@ -3,10 +3,10 @@ package probe_test
 import (
 	"testing"
 
-	"github.com/ultradns/ultradns-go-sdk/internal/testing/integration"
-	"github.com/ultradns/ultradns-go-sdk/pkg/probe"
-	"github.com/ultradns/ultradns-go-sdk/pkg/probe/http"
-	"github.com/ultradns/ultradns-go-sdk/pkg/rrset"
+	"github.com/naoredri/ultradns-go-sdk/internal/testing/integration"
+	"github.com/naoredri/ultradns-go-sdk/pkg/probe"
+	"github.com/naoredri/ultradns-go-sdk/pkg/probe/http"
+	"github.com/naoredri/ultradns-go-sdk/pkg/rrset"
 )
 
 const serviceErrorString = "Probe service is not properly configured"

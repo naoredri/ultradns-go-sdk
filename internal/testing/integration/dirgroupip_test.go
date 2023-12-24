@@ -3,8 +3,8 @@ package integration_test
 import (
 	"testing"
 
-	"github.com/ultradns/ultradns-go-sdk/internal/testing/integration"
-	"github.com/ultradns/ultradns-go-sdk/pkg/dirgroup/ip"
+	"github.com/naoredri/ultradns-go-sdk/internal/testing/integration"
+	"github.com/naoredri/ultradns-go-sdk/pkg/dirgroup/ip"
 )
 
 var IPID = ""

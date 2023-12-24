@@ -3,9 +3,9 @@ package zone_test
 import (
 	"testing"
 
-	"github.com/ultradns/ultradns-go-sdk/internal/testing/integration"
-	"github.com/ultradns/ultradns-go-sdk/pkg/helper"
-	"github.com/ultradns/ultradns-go-sdk/pkg/zone"
+	"github.com/naoredri/ultradns-go-sdk/internal/testing/integration"
+	"github.com/naoredri/ultradns-go-sdk/pkg/helper"
+	"github.com/naoredri/ultradns-go-sdk/pkg/zone"
 )
 
 const serviceErrorString = "Zone service is not properly configured"

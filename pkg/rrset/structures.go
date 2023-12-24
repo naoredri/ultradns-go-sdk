@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/ultradns/ultradns-go-sdk/pkg/helper"
+	"github.com/naoredri/ultradns-go-sdk/pkg/helper"
 )
 
 type RRSet struct {

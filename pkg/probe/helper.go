@@ -3,14 +3,14 @@ package probe
 import (
 	"fmt"
 
-	"github.com/ultradns/ultradns-go-sdk/pkg/errors"
-	"github.com/ultradns/ultradns-go-sdk/pkg/probe/dns"
-	"github.com/ultradns/ultradns-go-sdk/pkg/probe/ftp"
-	"github.com/ultradns/ultradns-go-sdk/pkg/probe/http"
-	"github.com/ultradns/ultradns-go-sdk/pkg/probe/ping"
-	"github.com/ultradns/ultradns-go-sdk/pkg/probe/smtp"
-	"github.com/ultradns/ultradns-go-sdk/pkg/probe/smtpsend"
-	"github.com/ultradns/ultradns-go-sdk/pkg/probe/tcp"
+	"github.com/naoredri/ultradns-go-sdk/pkg/errors"
+	"github.com/naoredri/ultradns-go-sdk/pkg/probe/dns"
+	"github.com/naoredri/ultradns-go-sdk/pkg/probe/ftp"
+	"github.com/naoredri/ultradns-go-sdk/pkg/probe/http"
+	"github.com/naoredri/ultradns-go-sdk/pkg/probe/ping"
+	"github.com/naoredri/ultradns-go-sdk/pkg/probe/smtp"
+	"github.com/naoredri/ultradns-go-sdk/pkg/probe/smtpsend"
+	"github.com/naoredri/ultradns-go-sdk/pkg/probe/tcp"
 )
 
 func ValidateProbeDetails(probeData *Probe) error {

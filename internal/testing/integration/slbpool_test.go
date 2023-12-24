@@ -3,10 +3,10 @@ package integration_test
 import (
 	"testing"
 
-	"github.com/ultradns/ultradns-go-sdk/internal/testing/integration"
-	"github.com/ultradns/ultradns-go-sdk/pkg/record/pool"
-	"github.com/ultradns/ultradns-go-sdk/pkg/record/slbpool"
-	"github.com/ultradns/ultradns-go-sdk/pkg/rrset"
+	"github.com/naoredri/ultradns-go-sdk/internal/testing/integration"
+	"github.com/naoredri/ultradns-go-sdk/pkg/record/pool"
+	"github.com/naoredri/ultradns-go-sdk/pkg/record/slbpool"
+	"github.com/naoredri/ultradns-go-sdk/pkg/rrset"
 )
 
 func (t *IntegrationTest) TestSLBPoolResources(zoneName string) {

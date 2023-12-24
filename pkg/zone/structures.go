@@ -1,6 +1,6 @@
 package zone
 
-import "github.com/ultradns/ultradns-go-sdk/pkg/helper"
+import "github.com/naoredri/ultradns-go-sdk/pkg/helper"
 
 const (
 	Primary   = "PRIMARY"
